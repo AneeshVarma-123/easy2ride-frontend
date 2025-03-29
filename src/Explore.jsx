@@ -1,4 +1,4 @@
-// filepath: /home/aneesh/Desktop/Easy2ride/easy2ride-frontend/src/Explore.jsx
+
 import React from "react";
 
 const Explore = () => {
