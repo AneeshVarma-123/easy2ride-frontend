@@ -1,6 +1,4 @@
-/* Navbar.css */
 
-/* Overall Navbar */
 
 .page-container {
     height: 99vh;
@@ -18,7 +16,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Left Section */
+
   .left-section {
     display: flex;
     align-items: center;
