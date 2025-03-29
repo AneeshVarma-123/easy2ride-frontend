@@ -1,0 +1,96 @@
+/* Signup Page Styles */
+.signup-page {
+    height: 100vh;
+    background-color: #eadab3; /* Macaroon Color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Signup Container */
+  .signup-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 400px;
+    height: 300px; /* Height is double the width */
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Title */
+  .signup-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Grid Layout */
+  .signup-form {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 15px;
+    justify-items: center;
+  }
+  
+  /* Input Label */
+  .input-label {
+    font-size: 1rem;
+    color: #666;
+    justify-self: start;
+    margin-left: 10px;
+  }
+  
+  /* Input Field */
+  .input-field {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  
+  /* Hover Effect for Input */
+  .input-field:hover {
+    background-color: #ebebeb;
+  }
+  
+  /* Signup Button */
+  .signup-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f0b342;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Effect */
+  .signup-button:hover {
+    background-color: #e59e1b;
+  }
+  
+  /* Create Account Link */
+  .create-account-link {
+    font-size: 0.9rem;
+    color: #888;
+    text-decoration: none;
+    margin-top: 0px;
+    transition: color 0.2s;
+  }
+  
+  /* Hover Effect for Link */
+  .create-account-link:hover {
+    color: #555;
+  }
+  
